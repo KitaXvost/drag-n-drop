@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="drop-area">
+  <form class="my-form">
+    <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+    <label class="button" for="fileElem">Перетащите сюда json-файл</label>
+  </form>
+    <div id="output"></div>
+</div>
+<footer>Исходный код <a href="https://github.com/KitaXvost/drag-n-drop">GitHub</a> </footer>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
